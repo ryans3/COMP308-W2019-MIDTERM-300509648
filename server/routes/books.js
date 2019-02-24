@@ -120,6 +120,18 @@ router.get('/delete/:id', (req, res, next) => {
   /*****************
    * ADD CODE HERE *
    *****************/
+  let id = req.params.id;
+
+  booksModel.remove({_id:id},  (err) => {
+
+    if (err) {
+      console.log(err);
+      res.send(err);
+    }
+    else {
+      res.redirect('/books');
+    }
+  })
 });
 
 
