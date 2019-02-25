@@ -17,7 +17,7 @@ let book = require('../models/books');
 router.get('/', (req, res, next) => {
   res.render('content/index', {
     title: 'Home',
-    books: ''
+    books: 'book'
    });
 });
 
