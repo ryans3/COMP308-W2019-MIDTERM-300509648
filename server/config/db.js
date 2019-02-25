@@ -1,3 +1,10 @@
+/* 
+File Name: db.js
+Authors Name: Ryan Sterling
+Student ID: 300509648
+Web App Name:
+*/
+
 module.exports = {
   //local MongoDB deployment ->
   "URI": "mongodb://localhost/3000"

@@ -1,3 +1,10 @@
+/* 
+File Name: books.js
+Authors Name: Ryan Sterling
+Student ID: 300509648
+Web App Name:
+*/
+
 let mongoose = require('mongoose');
 
 // create a model class

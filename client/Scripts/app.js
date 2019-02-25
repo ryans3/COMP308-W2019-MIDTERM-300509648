@@ -1,4 +1,9 @@
-/* custom JS goes here */
+/* 
+File Name: App.JS
+Authors Name: Ryan Sterling
+Student ID: 300509648
+Web App Name:
+*/
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */
 $.fn.pageMe = function(opts){
