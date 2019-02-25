@@ -1,3 +1,10 @@
+/* 
+File Name: server.js
+Authors Name: Ryan Sterling
+Student ID: 300509648
+Web App Name:
+*/
+
 let app = require('./server/app');
 let debug = require('debug')('comp308-w2019-midterm:server');
 let http = require('http');
